@@ -2,11 +2,22 @@
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; 
+    width: auto\9; }
 
+h1{
+   border-color: black;
+   border-style: solid;
+   border-width: 2px;
 }
 
-
-section{
-    background-color: rgb(138, 138, 138);
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(230, 202, 235);
 }
+
+section{ background-color: rgba(146, 146, 146, 0.488);}
+
+footer {
+    background-color: rgba(146, 146, 146, 0.488);
+}
+
