@@ -10,9 +10,10 @@ h1{
    border-width: 2px;
 }
 
+
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(230, 202, 235);
+    background-color: rgb(109, 109, 109);
 }
 
 section{ background-color: rgba(146, 146, 146, 0.488);}
