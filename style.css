@@ -1,4 +1,9 @@
-/* Universal Reset and Base Styles */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vast+Shadow&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,18 +18,36 @@ body, html {
 }
  
 /* Image Styling */
-img {
-    max-width: 100%;
+figure {
+    display: block;   
+    margin: 20px;                
+    text-align: center;            
+}
+
+
+figure img {
+    
+   max-width: 100%;
     height: auto;
     display: block;
-    
 }
- 
-/* Header Styles */
+
+
+figcaption {
+    margin-top: 8px; 
+    padding: 1em;               
+    font-size: 1em;              
+    color: #ffffff;    
+    font-family: "Playfair Display", serif;             
+    font-style: italic;             
+}
+
+
+
 h1 {
   
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playfair Display", serif;
     font-size: 2.5em;
     color: #ff00d4;
     background-color: #1e1e1e;
@@ -36,7 +59,7 @@ h1 {
     max-width: fit-content;
 }
  
-/* Navigation Links */
+
 header nav a {
     text-decoration: none;
     color: #ffffff;
@@ -49,7 +72,7 @@ header nav a:hover {
     background-color: #f4a7dd;
 }
  
-/* Main Content Section */
+
 section {
     color: #ffffff;
     background-color:#1e1e1eb0;
@@ -72,7 +95,7 @@ footer {
     font-size: 0.9em;
 }
  
-/* Code-Styled Content Box */
+
 .content {
     font-family: 'Courier New', Courier, monospace;
     color: #ff00bf;
@@ -85,8 +108,8 @@ footer {
     max-width: 800px;
     text-align: center;
 }
- 
-/* Fullscreen Video Background */
+  
+
 .video-background {
     position: fixed;
     top: 0;
@@ -116,7 +139,7 @@ h1, .content {
     word-wrap: break-word;
 }
  
-/* Mobile Adjustments */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8em;
