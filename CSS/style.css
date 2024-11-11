@@ -59,6 +59,9 @@ h1 {
     max-width: fit-content;
 }
  
+h3 {
+    padding-bottom: 1em;
+}
 
 header nav a {
     text-decoration: none;
