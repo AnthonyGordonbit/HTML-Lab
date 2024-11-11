@@ -59,6 +59,10 @@ h1 {
     max-width: fit-content;
 }
  
+h2 {
+    padding-bottom: 1em;
+}
+
 h3 {
     padding-bottom: 1em;
 }
