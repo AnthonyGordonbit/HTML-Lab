@@ -7,10 +7,19 @@ document.getElementById("copyright").innerHTML = `&copy; Anthony Gordon ${curren
 const d = new Date(); 
 btn.addEventListener("click", () => {
     if (d.getHours() <= 11) {
-        alert("Good morning!");
+        alert("Good morning");
     } else if (d.getHours() < 18) {
-        alert("Good afternoon!");
+        alert("Good afternoon");
     } else {
-        alert("Good evening!");
+        alert("Good evening");
     }
 })
+
+
+const alertButton = document.getElementById("btn");
+alertButton.onmouseover = () => {
+    alertButton.innerText = "Click me! I know what time it is.";
+};
+alertButton.onmouseleave = () => {
+    alertButton.innerText = "Hello!";
+};
