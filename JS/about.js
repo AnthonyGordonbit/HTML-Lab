@@ -15,7 +15,6 @@ btn.addEventListener("click", () => {
     }
 })
 
-
 const alertButton = document.getElementById("btn");
 alertButton.onmouseover = () => {
     alertButton.innerText = "Click me! I know what time it is.";
