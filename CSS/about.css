@@ -30,6 +30,21 @@ h1 {
     max-width: fit-content;
 }
  
+button {
+    color: white;
+    background-color: #c109a2;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #f4a7dd;
+    
+}
+
 ol a{
     font-family: "Playfair Display", serif;
 
